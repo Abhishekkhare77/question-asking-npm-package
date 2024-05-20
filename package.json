@@ -1,0 +1,24 @@
+{
+  "name": "question-asking-pack",
+  "version": "1.0.0",
+  "description": "npm package that asks questions",
+  "main": "index.js",
+  "bin": {
+    "question-asking-pack": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "ask",
+    "question",
+    "package",
+    "maker"
+  ],
+  "author": "Abhishek khare",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.22"
+  }
+}
